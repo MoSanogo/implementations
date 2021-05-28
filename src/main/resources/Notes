@@ -1,0 +1,5 @@
+"""  After successfully authentication with Oauth2  Provider we'll be generating an oauth token
+ for the user and send the token to the redirectUri mentioned by the frontend client in the /oauth2/authorize
+ request we're not using cookies because they won't work well in mobile clients.
+
+"""
